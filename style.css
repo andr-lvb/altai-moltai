@@ -116,9 +116,12 @@ body {
     line-height: normal;
 }
 
-/* .gallery {
-  
-} */
+.gallery {
+display: grid;
+gap: 30px;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(10, 435px);
+}
 
 .gallery__card {
     display: flex;
